@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_4;UNITY_4_5;UNITY_64;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -59,7 +59,37 @@
      <Compile Include="Assets\Myo\Scripts\Myo.NET\libmyo.cs" />
      <Compile Include="Assets\Myo\Scripts\ThalmicHub.cs" />
      <Compile Include="Assets\Myo\Scripts\ThalmicMyo.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCamera.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCrosshair.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDevice.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRGamepadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRHmd.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRMainMenu.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPresetManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRUGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRUtils.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRVisionGuide.cs" />
+     <Compile Include="Assets\Snowball.cs" />
+     <Compile Include="Assets\moveaway.cs" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\Myo\README-MyoUnity.txt" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D245FF08-9CC2-94D5-9058-5C720013E68C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{7AB131F3-E897-CD01-9CCF-416BF56E2366}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

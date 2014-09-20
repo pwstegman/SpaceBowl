@@ -34,11 +34,7 @@ public class SampleSceneGUI : MonoBehaviour
             );
         } else {
             GUI.Label (new Rect (12, 8, Screen.width, Screen.height),
-                "Fist: Vibrate Myo armband\n" +
-                "Wave in: Set box material to blue\n" +
-                "Wave out: Set box material to green\n" +
-                "Thumb to pinky: Reset box material\n" +
-                "Fingers spread: Set forward direction"
+                "Connected. Calibrate with a fist."
             );
         }
     }

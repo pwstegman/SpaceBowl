@@ -37,7 +37,7 @@ public class ColorBoxByPose : MonoBehaviour
             _lastPose = thalmicMyo.pose;
 
             // Vibrate the Myo armband when a fist is made.
-            if (thalmicMyo.pose == Pose.Fist) {
+            /*if (thalmicMyo.pose == Pose.Fist) {
                 thalmicMyo.Vibrate (VibrationType.Medium);
 
             // Change material when wave in, wave out or thumb to pinky poses are made.
@@ -47,7 +47,7 @@ public class ColorBoxByPose : MonoBehaviour
                 renderer.material = waveOutMaterial;
             } else if (thalmicMyo.pose == Pose.ThumbToPinky) {
                 renderer.material = thumbToPinkyMaterial;
-            }
+            }*/
         }
     }
 }

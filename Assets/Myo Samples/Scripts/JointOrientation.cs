@@ -2,6 +2,8 @@
 using System.Collections;
 
 using Pose = Thalmic.Myo.Pose;
+using acc = Thalmic.Myo.AccelerometerDataEventArgs;
+using VibrationType = Thalmic.Myo.VibrationType;
 
 // Orient the object to match that of the Myo armband.
 // Compensate for initial yaw (orientation about the gravity vector) and roll (orientation about
@@ -22,24 +24,29 @@ public class JointOrientation : MonoBehaviour
     // Set by making the fingers spread pose or pressing "r".
     private float _referenceRoll = 0.0f;
 
+	public float centerX = 0f;
+
     // The pose from the last update. This is used to determine if the pose has changed
     // so that actions are only performed upon making them rather than every frame during
     // which they are active.
     private Pose _lastPose = Pose.Unknown;
+
+	private bool calibrated = false;
 
     // Update is called once per frame.
     void Update ()
     {
         // Access the ThalmicMyo component attached to the Myo object.
         ThalmicMyo thalmicMyo = myo.GetComponent<ThalmicMyo> ();
-
-        // Update references when the pose becomes fingers spread or the q key is pressed.
+		
+        // Update references when the pose becomes fingers spread or the r key is pressed.
         bool updateReference = false;
         if (thalmicMyo.pose != _lastPose) {
             _lastPose = thalmicMyo.pose;
 
-            if (thalmicMyo.pose == Pose.FingersSpread) {
+            if (thalmicMyo.pose == Pose.Fist && calibrated == false) {
                 updateReference = true;
+				calibrated = true;
             }
         }
         if (Input.GetKeyDown ("r")) {
@@ -53,7 +60,7 @@ public class JointOrientation : MonoBehaviour
             // vector of the rotation with Z = 1 when the wearer's arm is pointing in the reference direction.
             _antiYaw = Quaternion.FromToRotation (
                 new Vector3 (myo.transform.forward.x, 0, myo.transform.forward.z),
-                new Vector3 (0, 0, 1)
+                new Vector3 (0+centerX, 0, 1)
             );
 
             // _referenceRoll represents how many degrees the Myo armband is rotated clockwise
@@ -63,7 +70,11 @@ public class JointOrientation : MonoBehaviour
             // the roll value matches the reference.
             Vector3 referenceZeroRoll = computeZeroRollVector (myo.transform.forward);
             _referenceRoll = rollFromZero (referenceZeroRoll, myo.transform.forward, myo.transform.up);
-        }
+        
+
+			thalmicMyo.Vibrate (VibrationType.Medium);
+
+		}
 
         // Current zero roll vector and roll value.
         Vector3 zeroRoll = computeZeroRollVector (myo.transform.forward);
