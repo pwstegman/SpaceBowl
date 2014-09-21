@@ -15,21 +15,24 @@ public class Score : MonoBehaviour {
 		startRotation = transform.rotation;
 		Debug.Log ("Stored position "+startPos);
 	}
-	
+
 	// Update is called once per frame
+	private bool canreset = true;
 	void Update () {
 		bool reseteh;
 		reseteh = go.GetComponent<gm> ().canreset ();
 		if (reseteh == true) {
-			reset();
+			canreset = false;
+			reset ();
 		}
 	}
 
+
+
 	public void reset(){
-		transform.position=startPos;
+		transform.position = startPos;
 		transform.rotation = startRotation;
 		transform.rigidbody.velocity = Vector3.zero;
 		transform.rigidbody.angularVelocity = Vector3.zero;
-		Debug.Log ("I reset");
 	}
 }

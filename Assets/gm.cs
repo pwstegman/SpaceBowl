@@ -20,7 +20,6 @@ public class gm : MonoBehaviour {
 		if (bowls > 0 && timeron == false && bowls % 2 == 0 && bowls != lastBowl) {
 			timeron = true;
 			lastBowl = bowls;
-			Debug.Log ("Started timer");
 		}
 
 		if (bowls % 2 == 1) {
@@ -34,7 +33,6 @@ public class gm : MonoBehaviour {
 			time = 0f;
 			timeron = false;
 			reset = true;
-			Debug.Log ("Reset timer done");
 		}
 	}
 
@@ -42,8 +40,6 @@ public class gm : MonoBehaviour {
 
 	public bool canreset(){
 		if (reset == true) {
-			resets += 1;
-			Debug.Log ("Reset");
 			return true;
 		}
 		return false;
