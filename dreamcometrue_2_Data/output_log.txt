@@ -1,0 +1,149 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680M (ID=0x11a0)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.044 seconds
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Stored position (0.0, 1.6, 43.8)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (2.0, 1.6, 43.8)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (-2.6, 1.6, 45.0)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (-1.8, 1.6, 43.8)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (0.1, 1.6, 41.3)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (1.2, 1.6, 45.0)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (-0.9, 1.6, 45.0)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (2.9, 1.6, 45.0)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (1.0, 1.6, 42.4)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Stored position (-0.6, 1.6, 42.4)
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+SnowballPlane
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\awevents303\Documents\git\dreamcometrue;C:\Users\awevents303\Documents\git\dreamcometrue;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'awevents303'
+OS-Version: 6.1.7601 (Service Pack 1) 0x300-0x1
+C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2.exe:dreamcometrue_2.exe (000000013FE40000), size: 15523840 (result: 0), SymType: '-exported-', PDB: 'C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2.exe', fileVersion: 4.5.4.31047
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (0000000077C90000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.1.7601.18247
+C:\Windows\system32\kernel32.dll:kernel32.dll (0000000077A70000), size: 1175552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\kernel32.dll', fileVersion: 6.1.7601.18409
+C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (000007FEFDDE0000), size: 442368 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNELBASE.dll', fileVersion: 6.1.7601.18409
+C:\Windows\system32\HID.DLL:HID.DLL (000007FEFB950000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\HID.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\msvcrt.dll:msvcrt.dll (000007FEFE9F0000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msvcrt.dll', fileVersion: 7.0.7601.17744
+C:\Windows\system32\WS2_32.dll:WS2_32.dll (000007FEFFE50000), size: 315392 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WS2_32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (000007FEFFCA0000), size: 1232896 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RPCRT4.dll', fileVersion: 6.1.7601.18532
+C:\Windows\system32\NSI.dll:NSI.dll (000007FEFFF90000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NSI.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\USER32.dll:USER32.dll (0000000077B90000), size: 1024000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USER32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\GDI32.dll:GDI32.dll (000007FEFEDA0000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GDI32.dll', fileVersion: 6.1.7601.18577
+C:\Windows\system32\LPK.dll:LPK.dll (000007FEFE150000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\LPK.dll', fileVersion: 6.1.7601.18177
+C:\Windows\system32\USP10.dll:USP10.dll (000007FEFFEC0000), size: 823296 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USP10.dll', fileVersion: 1.626.7601.18454
+C:\Windows\system32\VERSION.dll:VERSION.dll (000007FEFC9D0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VERSION.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\ole32.dll:ole32.dll (000007FEFDE60000), size: 2109440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ole32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\SHLWAPI.dll:SHLWAPI.dll (000007FEFE650000), size: 462848 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHLWAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (000007FEFEE30000), size: 897024 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ADVAPI32.dll', fileVersion: 6.1.7601.18247
+C:\Windows\SYSTEM32\sechost.dll:sechost.dll (000007FEFFEA0000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\sechost.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\SHELL32.dll:SHELL32.dll (000007FEFEF10000), size: 14188544 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SHELL32.dll', fileVersion: 6.1.7601.18517
+C:\Windows\system32\OPENGL32.dll:OPENGL32.dll (000007FEF5C60000), size: 1167360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OPENGL32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\GLU32.dll:GLU32.dll (000007FEFAEF0000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GLU32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DDRAW.dll:DDRAW.dll (000007FEF5120000), size: 987136 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DDRAW.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DCIMAN32.dll:DCIMAN32.dll (000007FEFB960000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DCIMAN32.dll', fileVersion: 6.1.7601.18177
+C:\Windows\system32\SETUPAPI.dll:SETUPAPI.dll (000007FEFE810000), size: 1929216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SETUPAPI.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\CFGMGR32.dll:CFGMGR32.dll (000007FEFDD80000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CFGMGR32.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\OLEAUT32.dll:OLEAUT32.dll (000007FEFE070000), size: 880640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OLEAUT32.dll', fileVersion: 6.1.7601.17676
+C:\Windows\system32\DEVOBJ.dll:DEVOBJ.dll (000007FEFDC80000), size: 106496 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DEVOBJ.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\dwmapi.dll:dwmapi.dll (000007FEFB800000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dwmapi.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\WINMM.dll:WINMM.dll (000007FEF9830000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINMM.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSACM32.dll:MSACM32.dll (000007FEF7AA0000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSACM32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\IMM32.dll:IMM32.dll (000007FEFE6D0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IMM32.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSCTF.dll:MSCTF.dll (000007FEFE700000), size: 1085440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSCTF.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\DNSAPI.dll:DNSAPI.dll (000007FEFD0C0000), size: 372736 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\DNSAPI.dll', fileVersion: 6.1.7601.17570
+C:\Windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (000007FEFAAA0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\IPHLPAPI.DLL', fileVersion: 6.1.7601.17514
+C:\Windows\system32\WINNSI.DLL:WINNSI.DLL (000007FEFAA80000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINNSI.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\WINHTTP.dll:WINHTTP.dll (000007FEF8ED0000), size: 462848 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINHTTP.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\webio.dll:webio.dll (000007FEFAAE0000), size: 409600 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\system32\webio.dll', fileVersion: 6.1.7601.17725
+C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Plugins\OculusPlugin.DLL:OculusPlugin.DLL (000007FEEF170000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Plugins\OculusPlugin.DLL'
+C:\Windows\system32\dxgi.dll:dxgi.dll (000007FEFB100000), size: 380928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dxgi.dll', fileVersion: 6.2.9200.16492
+C:\Windows\system32\dbghelp.dll:dbghelp.dll (000007FEFB820000), size: 1200128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dbghelp.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\d3d9.dll:d3d9.dll (000007FEF8C10000), size: 2093056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d9.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\d3d8thk.dll:d3d8thk.dll (000007FEF8C00000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d8thk.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\d3d11.dll:d3d11.dll (000007FEF67A0000), size: 1921024 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d11.dll', fileVersion: 6.2.9200.16570
+C:\Windows\system32\d3d10core.dll:d3d10core.dll (000007FEF7D20000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d10core.dll', fileVersion: 6.2.9200.16492
+C:\Windows\system32\d3d10.dll:d3d10.dll (000007FEF5FA0000), size: 1269760 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d10.dll', fileVersion: 6.2.9200.16492
+C:\Windows\system32\OVRDisplayRT64.dll:OVRDisplayRT64.dll (000007FEF7CA0000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OVRDisplayRT64.dll', fileVersion: 1.0.25.0
+C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Mono\mono.dll:mono.dll (000007FEDF7C0000), size: 2990080 (result: 0), SymType: '-exported-', PDB: 'C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Mono\mono.dll'
+C:\Windows\system32\PSAPI.DLL:PSAPI.DLL (0000000077E60000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\PSAPI.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\MSWSOCK.dll:MSWSOCK.dll (000007FEFD230000), size: 348160 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSWSOCK.dll', fileVersion: 6.1.7601.18254
+C:\Windows\system32\CRYPTBASE.dll:CRYPTBASE.dll (000007FEFD900000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPTBASE.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (000007FEFBEA0000), size: 352256 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\WINTRUST.dll:WINTRUST.dll (000007FEFDC30000), size: 237568 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINTRUST.dll', fileVersion: 6.1.7601.18205
+C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (000007FEFDAC0000), size: 1490944 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPT32.dll', fileVersion: 6.1.7601.18277
+C:\Windows\system32\MSASN1.dll:MSASN1.dll (000007FEFDAA0000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSASN1.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\OVRDisplay64.dll:OVRDisplay64.dll (000007FEF3E40000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\OVRDisplay64.dll', fileVersion: 1.0.25.0
+C:\Windows\system32\nvwgf2umx.dll:nvwgf2umx.dll (000007FEDCE00000), size: 18448384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvwgf2umx.dll', fileVersion: 9.18.13.3750
+C:\Windows\system32\bcrypt.dll:bcrypt.dll (000007FEFD3E0000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\bcrypt.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (0000000180000000), size: 1261568 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvspcap64.dll', fileVersion: 12.4.55.0
+C:\Windows\system32\nvapi64.dll:nvapi64.dll (000007FEF5860000), size: 3264512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvapi64.dll', fileVersion: 9.18.13.3750
+C:\Windows\system32\bcryptprimitives.dll:bcryptprimitives.dll (000007FEFCEE0000), size: 311296 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\bcryptprimitives.dll', fileVersion: 6.1.7601.17514
+C:\Windows\system32\MMDevAPI.DLL:MMDevAPI.DLL (000007FEFC8A0000), size: 307200 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MMDevAPI.DLL', fileVersion: 6.1.7600.16385
+C:\Windows\system32\PROPSYS.dll:PROPSYS.dll (000007FEFC770000), size: 1228800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\PROPSYS.dll', fileVersion: 7.0.7601.17514
+C:\Windows\system32\wdmaud.drv:wdmaud.drv (000007FEF72F0000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wdmaud.drv', fileVersion: 6.1.7601.17514
+C:\Windows\system32\ksuser.dll:ksuser.dll (0000000074440000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ksuser.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\AVRT.dll:AVRT.dll (000007FEFC760000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AVRT.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\AUDIOSES.DLL:AUDIOSES.DLL (000007FEF8800000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\AUDIOSES.DLL', fileVersion: 6.1.7601.17514
+C:\Windows\system32\msacm32.drv:msacm32.drv (000007FEFAC90000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msacm32.drv', fileVersion: 6.1.7600.16385
+C:\Windows\system32\midimap.dll:midimap.dll (000007FEF7EE0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\midimap.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\dsound.dll:dsound.dll (000007FEF34B0000), size: 557056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dsound.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\POWRPROF.dll:POWRPROF.dll (000007FEFC8F0000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\POWRPROF.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\CLBCatQ.DLL:CLBCatQ.DLL (000007FEFEC60000), size: 626688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CLBCatQ.DLL', fileVersion: 2001.12.8530.16385
+C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\comctl32.dll:comctl32.dll (000007FEFBFD0000), size: 2048000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\comctl32.dll', fileVersion: 6.10.7601.17514
+C:\Windows\System32\wship6.dll:wship6.dll (000007FEFD5E0000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wship6.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\Xinput9_1_0.dll:Xinput9_1_0.dll (000007FEFB160000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\Xinput9_1_0.dll', fileVersion: 6.1.7600.16385
+C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Plugins\myo.dll:myo.dll (000007FEEA700000), size: 1101824 (result: 0), SymType: '-exported-', PDB: 'C:\Users\awevents303\Documents\git\dreamcometrue\dreamcometrue_2_Data\Plugins\myo.dll'
+C:\Windows\System32\wshtcpip.dll:wshtcpip.dll (000007FEFCC40000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wshtcpip.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\SspiCli.dll:SspiCli.dll (000007FEFD870000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SspiCli.dll', fileVersion: 6.1.7601.18443
+
+========== OUTPUTING STACK TRACE ==================
+
+(0x000007FEEA759655) (myo): (filename not available): (function-name not available) + 0x0

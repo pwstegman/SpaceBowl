@@ -73,7 +73,9 @@
      <Compile Include="Assets\OVR\Scripts\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRUtils.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRVisionGuide.cs" />
+     <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Snowball.cs" />
+     <Compile Include="Assets\gm.cs" />
      <Compile Include="Assets\moveaway.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />

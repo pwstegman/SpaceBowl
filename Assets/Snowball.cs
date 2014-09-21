@@ -9,13 +9,14 @@ public class Snowball : MonoBehaviour {
 	public GameObject myo = null;
 	public Transform ball;
 	private bool hasBall = false;
+	GameObject go;
 
 	void Start(){
 		basematerial = renderer.material;
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.gameObject.name == "Plane") {
+		if (other.gameObject.name == "Plane" && waitfornow == false) {
 			Debug.Log ("Snowball"+other.gameObject.name);
 			renderer.material = snow;
 			hasBall = true;
@@ -23,15 +24,48 @@ public class Snowball : MonoBehaviour {
 	}
 
 	private Pose _lastPose = Pose.Unknown;
+	private float timecount = 0f;
+	private bool waitfornow = false;
+	public Material stall = null;
 
 	void Update(){
+
+		if (waitfornow == true) {
+			if(timecount > 5f){
+				waitfornow = false;
+				timecount = 0f;
+				renderer.material = basematerial;
+			}else{
+				renderer.material = stall;
+				timecount += Time.deltaTime;
+				return;
+			}
+		}
+
 		ThalmicMyo thalmicMyo = myo.GetComponent<ThalmicMyo> ();
+
+		if (transform.position.y > 2.5 && hasBall == true) {
+			renderer.material = basematerial;
+			Instantiate(ball, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+			hasBall = false;
+			waitfornow = true;
+
+			go = GameObject.Find("gm");
+			go.GetComponent<gm> ().addBowl ();
+
+		}
+
 		if (thalmicMyo.pose != _lastPose) {
 			_lastPose = thalmicMyo.pose;
 			if(thalmicMyo.pose == Pose.FingersSpread && hasBall == true){
 				renderer.material = basematerial;
 				Instantiate(ball, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
 				hasBall = false;
+				waitfornow = true;
+
+				go = GameObject.Find("gm");
+				go.GetComponent<gm> ().addBowl ();
+
 			}
 			// Vibrate the Myo armband when a fist is made.
 			/*if (thalmicMyo.pose == Pose.Fist) {
