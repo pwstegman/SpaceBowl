@@ -1,3 +1,8 @@
-Spacebowl: Bowl in space using the Oculus Rift DK2 and the Myo arm band.
+Spacebowl
+---------
+
+Starting as a snowball fight game, Spacebowl pivoted into something which everyone likes - bowling. Throw on your Oculus and Myo to be immersed in an awesome VR experience.
+
+![Spacebowl](https://raw.githubusercontent.com/pwstegman/Spacebowl/master/Spacebowl.png)
 
 Update: Spacebowl made it to Hack the North top 10! :D
